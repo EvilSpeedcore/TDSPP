@@ -8,5 +8,3 @@ class Data(object):
 
     def __iter__(self):
         return iter(zip(self.designators, self.components, self.quantity))
-
-
