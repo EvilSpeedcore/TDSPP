@@ -60,7 +60,3 @@ class RowsBuilder(object):
                 row.name = this_item.component.split()[0]
                 rows.append(row)
         return rows
-
-
-
-
